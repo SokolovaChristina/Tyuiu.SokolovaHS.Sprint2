@@ -17,7 +17,7 @@ namespace Tyuiu.SokolovaHS.Sprint2.Task3.V12.Lib
             else if (x == 0)
             {
                 // 1 + cos(√(x+1))
-                y = Math.Round(1 + Math.Cos(Math.Sqrt(x + 1)), 3);
+                y = (1 + Math.Cos(Math.Sqrt(x + 1)));
             }
             else if ((-16 < x) && (x < 2))
             {
@@ -30,7 +30,7 @@ namespace Tyuiu.SokolovaHS.Sprint2.Task3.V12.Lib
                 y = x + (10 * x) - (1 / x);
             }
 
-            return y;
+            return Math.Round(y, 3);
         }
     }
 }
