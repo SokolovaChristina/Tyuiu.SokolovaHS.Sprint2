@@ -7,10 +7,10 @@ namespace Tyuiu.SokolovaHS.Sprint2.Task6.V4.Lib
         {
             switch (value)
             {
-                case 1: return "Пики";
-                case 2: return "Трефы";
-                case 3: return "Бубны";
-                case 4: return "Червы";
+                case 1: return "пики";
+                case 2: return "трефы";
+                case 3: return "бубны";
+                case 4: return "червы";
                 default: throw new ArgumentException($"Мастей может быть только от 1 до 4. Значение {value}"); ;
             }
         }
